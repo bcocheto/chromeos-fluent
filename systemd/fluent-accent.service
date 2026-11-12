@@ -1,0 +1,9 @@
+[Unit]
+Description=Sincroniza o tema ChromeOS-Fluent com a cor de destaque do sistema
+
+[Service]
+ExecStart=/bin/sh -c '%h/.local/bin/fluent-accent-sync --no-reload; gsettings monitor org.gnome.desktop.interface accent-color | while read -r _; do %h/.local/bin/fluent-accent-sync; done'
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

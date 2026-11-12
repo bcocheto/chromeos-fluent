@@ -1,0 +1,3 @@
+#!/bin/bash
+# Captura apps num GNOME Shell headless (sem tocar na sua sessão). Uso: fluent-shot saida_dir "nautilus --new-window,gnome-control-center sound"
+exec dbus-run-session -- python3 "${FLUENT_HARNESS:-$HOME/.local/share/fluent-theme-test/harness.py}" "$1" "$2"

@@ -1,0 +1,24 @@
+# Ajustes das extensões usados com o tema. Carregue com:
+#   dconf load /org/gnome/shell/extensions/ < config/extensions.dconf
+[dash-to-panel]
+trans-use-custom-bg=true
+trans-bg-color='#1e2028'
+trans-use-custom-opacity=true
+trans-panel-opacity=0.88
+trans-border-use-custom-color=true
+trans-border-custom-color='rgba(255,255,255,0.09)'
+trans-border-width=1
+highlight-appicon-hover=true
+highlight-appicon-hover-background-color='rgba(255,255,255,0.10)'
+highlight-appicon-hover-border-radius=12
+animate-appicon-hover=false
+
+[arcmenu]
+menu-border-radius=20
+menu-border-width=1
+menu-background-color='rgba(30,32,40,0.88)'
+menu-border-color='rgba(255,255,255,0.09)'
+menu-item-hover-bg-color='rgba(255,255,255,0.10)'
+menu-button-hover-bg-color=(true, 'rgba(255,255,255,0.15)')
+menu-button-active-bg-color=(true, 'rgba(255,255,255,0.18)')
+menu-button-border-radius=(true, 20)

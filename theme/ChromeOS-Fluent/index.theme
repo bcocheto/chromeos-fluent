@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=ChromeOS-Fluent
+Comment=ChromeOS com acabamento Fluent (translucidez e sombras)
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=ChromeOS-Fluent
+MetacityTheme=ChromeOS-Fluent
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=close,minimize,maximize:menu
