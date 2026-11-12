@@ -6629,15 +6629,15 @@ switch:focus > slider { box-shadow: 0 0 0 3px rgba(@ACCL_RGB@,0.45), 0 1px 2px r
 headerbar windowcontrols button:not(.suggested-action):not(.destructive-action), windowcontrols > button, windowcontrols button.minimize, windowcontrols button.maximize, windowcontrols button.close {
   min-width: 32px; min-height: 32px; padding: 0; margin: 4px 2px; border-radius: 9999px;
 }
-window.background.nautilus-window windowcontrols button { margin: 11px 2px; }
+window.background.nautilus-window windowcontrols button { margin: 4px 2px; }
 windowcontrols button image { min-width: 16px; min-height: 16px; margin: 0; padding: 0; }
 toolbarview > .top-bar, toolbarview > .top-bar.raised, toolbarview > .bottom-bar, toolbarview > .bottom-bar.raised { box-shadow: none; border-image: none; }
 .undershoot-top, .undershoot-bottom { background-image: none; box-shadow: none; }
 headerbar { box-shadow: none; }
 toolbarview > .top-bar.undershoot-top, toolbarview > .top-bar.raised.undershoot-top, toolbarview > revealer > .top-bar, toolbarview > revealer > .top-bar.raised, toolbarview > .undershoot-top, toolbarview .undershoot-top, .top-bar.undershoot-top, .top-bar.raised { box-shadow: none; background-image: none; border: none; }
 toolbarview > .top-bar { background-color: transparent; }
-window.background.nautilus-window:not(.message):not(.about), window.background.nautilus-window:not(.message):not(.about):backdrop { background-image: linear-gradient(to bottom, rgba(30,32,40,0.92), rgba(30,32,40,0.92) 55px, rgba(28,30,38,0.94) 55px, rgba(28,30,38,0.94)); }
-window.nautilus-window placessidebar { margin-top: 15px; }
+window.background.nautilus-window:not(.message):not(.about), window.background.nautilus-window:not(.message):not(.about):backdrop { background-image: linear-gradient(to bottom, rgba(30,32,40,0.92), rgba(30,32,40,0.92) 49px, rgba(28,30,38,0.94) 49px, rgba(28,30,38,0.94)); }
+window.nautilus-window placessidebar { margin-top: 9px; }
 preferencespage > scrolledwindow, preferencespage clamp > box { margin-top: -1px; }
 /* --- Seletor de cor de realce (Configurações > Aparência) --- */
 window button.accent-button:not(.suggested-action):not(.destructive-action):not(.flat):not(.x),
